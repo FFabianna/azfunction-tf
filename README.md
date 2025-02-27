@@ -142,5 +142,41 @@ terraform apply --var-file="dev.tfvars"
 Para eliminar la infraestructura creada, se puede utilizar:
 
 ```bash
-terraform destroy --var-file="dev.tfvars" -auto-approve
+terraform des
+troy --var-file="dev.tfvars" -auto-approve
 ```
+
+DOCUMENTACIÓN 
+1. Iniciamos la instalación y verificando las versiones
+   ![image](https://github.com/user-attachments/assets/bb498e80-0ab1-40fe-a496-a8d077e72ff9)
+   ![image](https://github.com/user-attachments/assets/daf90e47-2a85-4e1c-bce3-88533da016b1)
+
+   hacer login con azure validando: 
+   ![image](https://github.com/user-attachments/assets/1961e1f9-586b-4b68-a140-527be4151c5a)
+   obtener suscription_id
+   ![image](https://github.com/user-attachments/assets/15a78045-7877-4893-9c23-162e69b575b5)
+   Añadir suscription_id en main.tf se hace la ediciín manualmente
+   ![image](https://github.com/user-attachments/assets/9c255be5-af0d-4a45-b35a-b8bbf28a28dd)
+   Crear la funcion con el nombre "fabianafun"
+   ![image](https://github.com/user-attachments/assets/bfbb8b3e-248f-4aaa-b313-28a3df20e177)
+   ![image](https://github.com/user-attachments/assets/37e45805-b3c6-4514-a786-e1eaab4b6747)
+   apply:
+   ![image](https://github.com/user-attachments/assets/b61af732-04da-4a78-a4f3-b1fe010756cd)
+   Para evitar que bos pidan el nombre de la funcion manualmente podemos automatizarlo :
+manualmente editamos variable.tf e incluimos el nombre de la funcion 
+   ![image](https://github.com/user-attachments/assets/8f3a7b25-9171-4623-a6b0-49181562ba44)
+   verificamos en azure: ![image](https://github.com/user-attachments/assets/ebbef2c2-65fd-4cb8-852e-46f58561683a)
+   ![image](https://github.com/user-attachments/assets/cbbd1522-c7b7-4d78-8f26-4a55aeaea306)
+
+   
+
+
+
+
+
+
+
+
+
+
+
